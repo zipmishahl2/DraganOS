@@ -4,6 +4,20 @@ Windows Registry Editor Version 5.00
 [-HKLM\SYSTEM\ControlSet001\Services\dmwappushservice]
 [-HKLM\SYSTEM\ControlSet001\Services\DiagTrack]
 [-HKLM\SYSTEM\ControlSet001\Services\ssh-agent]
+[-HKLM\SYSTEM\CurrentControlSet\Services\MsSecCore]
+[-HKLM\SYSTEM\CurrentControlSet\Services\MsSecFlt]
+[-HKLM\SYSTEM\CurrentControlSet\Services\MsSecWfp]
+[-HKLM\SYSTEM\CurrentControlSet\Services\SecurityHealthService]
+[-HKLM\SYSTEM\CurrentControlSet\Services\Sense]
+[-HKLM\SYSTEM\CurrentControlSet\Services\WdBoot]
+[-HKLM\SYSTEM\CurrentControlSet\Services\WdFilter]
+[-HKLM\SYSTEM\CurrentControlSet\Services\WdNisDrv]
+[-HKLM\SYSTEM\CurrentControlSet\Services\WdNisSvc]
+[-HKLM\SYSTEM\CurrentControlSet\Services\WinDefend]
+[-HKLM\SYSTEM\CurrentControlSet\Services\wscsvc]
+[-HKLM\SYSTEM\CurrentControlSet\Services\MDCoreSvc]
+[-HKLM\SYSTEM\CurrentControlSet\Services\edgeupdatem]
+[-HKLM\SYSTEM\CurrentControlSet\Services\wisvc]
 
 [HKLM\SYSTEM\ControlSet001\Services\lfsvc]
 "Start"=dword:00000004
@@ -45,9 +59,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKLM\SYSTEM\ControlSet001\Services\InstallService]
-"Start"=dword:00000004
-
-[HKLM\SYSTEM\ControlSet001\Services\wscsvc]
 "Start"=dword:00000004
 
 [HKLM\SYSTEM\ControlSet001\Services\WdNisSvc]
@@ -207,9 +218,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKLM\SYSTEM\ControlSet001\Services\wlpasvc]
-"Start"=dword:00000004
-
-[HKLM\SYSTEM\ControlSet001\Services\wisvc]
 "Start"=dword:00000004
 
 [HKLM\SYSTEM\ControlSet001\Services\SCardSvr]
