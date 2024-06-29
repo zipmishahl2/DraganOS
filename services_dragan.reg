@@ -32,6 +32,15 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lfsvc]
 "Start"=dword:00000004
 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\fontcache]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\fontcache3.0.0.0]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\rdyboost]
+"Start"=dword:00000004
+
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MapsBroker]
 "Start"=dword:00000004
 
