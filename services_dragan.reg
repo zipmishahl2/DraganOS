@@ -31,6 +31,9 @@ Windows Registry Editor Version 5.00
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dssvc]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dusmsvc]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\diagsvc]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\scardsvr]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\scdeviceenum]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\scpolicysvc]
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lfsvc]
 "Start"=dword:00000004
@@ -204,9 +207,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wlpasvc]
-"Start"=dword:00000004
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCardSvr]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MsKeyboardFilter]
