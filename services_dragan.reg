@@ -9,6 +9,9 @@ Windows Registry Editor Version 5.00
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MsSecWfp]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Sense]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sensrsvc]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sensordataservice]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sensorservice]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdBoot]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdFilter]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisDrv]
@@ -188,12 +191,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vmicrdv]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SensorDataService]
-"Start"=dword:00000004
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SensorService]
-"Start"=dword:00000004
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vmicshutdown]
 "Start"=dword:00000004
 
@@ -204,9 +201,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VacSvc]
-"Start"=dword:00000004
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SensrSvc]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wlpasvc]
