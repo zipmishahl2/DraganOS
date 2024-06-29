@@ -18,11 +18,11 @@ Windows Registry Editor Version 5.00
 [-HKLM\SYSTEM\CurrentControlSet\Services\MDCoreSvc]
 [-HKLM\SYSTEM\CurrentControlSet\Services\edgeupdatem]
 [-HKLM\SYSTEM\CurrentControlSet\Services\wisvc]
+[-HKLM\SYSTEM\CurrentControlSet\Services\Telemetry]
+[-HKLM\SYSTEM\ControlSet001\Services\edgeupdate]
+[-HKLM\SYSTEM\ControlSet001\Services\SecurityHealthService]
 
 [HKLM\SYSTEM\ControlSet001\Services\lfsvc]
-"Start"=dword:00000004
-
-[HKLM\SYSTEM\ControlSet001\Services\MapsBroker]
 "Start"=dword:00000004
 
 [HKLM\SYSTEM\ControlSet001\Services\MapsBroker]
@@ -121,9 +121,6 @@ Windows Registry Editor Version 5.00
 [HKLM\SYSTEM\ControlSet001\Services\sedsvc]
 "Start"=dword:00000004
 
-[HKLM\SYSTEM\ControlSet001\Services\sedsvc]
-"Start"=dword:00000004
-
 [HKLM\SYSTEM\ControlSet001\Services\tzautoupdate]
 "Start"=dword:00000004
 
@@ -155,9 +152,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKLM\SYSTEM\ControlSet001\Services\SEMgrSvc]
-"Start"=dword:00000004
-
-[HKLM\SYSTEM\ControlSet001\Services\RasMan]
 "Start"=dword:00000004
 
 [HKLM\SYSTEM\ControlSet001\Services\pla]
@@ -235,9 +229,6 @@ Windows Registry Editor Version 5.00
 [HKLM\SYSTEM\ControlSet001\Services\SCPolicySvc]
 "Start"=dword:00000004
 
-[HKLM\SYSTEM\ControlSet001\Services\edgeupdate]
-"Start"=dword:00000003
-
 [HKLM\SYSTEM\ControlSet001\Services\GpuEnergyDrv]
 "Start"=dword:00000004
 
@@ -248,9 +239,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKLM\SYSTEM\ControlSet001\Services\Ndu]
-"Start"=dword:00000004
-
-[HKLM\SYSTEM\ControlSet001\Services\Telemetry]
 "Start"=dword:00000004
 
 [HKLM\SYSTEM\ControlSet001\Services\BDESVC]
