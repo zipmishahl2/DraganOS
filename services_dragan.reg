@@ -16,7 +16,6 @@ Windows Registry Editor Version 5.00
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wscsvc]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MDCoreSvc]
-[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdatem]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wisvc]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Telemetry]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdate]
