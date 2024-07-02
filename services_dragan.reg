@@ -231,4 +231,4 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Themes]
-"Start"=sword:00000004
+"Start"=dword:00000004
