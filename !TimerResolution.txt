@@ -1,0 +1,13 @@
+it is from 2004 to 24H2 it is fixed at 10k MHz
+Well, the system itself sets a timer for all applications
+Even if you put 0.5 MHz
+There will still be 1 MHz in games
+And even on old ones it is recommended to set it to 1 MHz because the game timer will be set to 1 MHz
+Well, 0.5 MHz more system timer interrupts
+Only for Windows 11 you can make a timer
+But I don't see the point in it
+If games and programs automatically set the timer to 1 MHz
+But in 1909 everything is different
+Because the timer is not fixed
+
+!!! WORK ONLY 1909 !!!
