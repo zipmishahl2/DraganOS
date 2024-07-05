@@ -240,3 +240,6 @@ XboxNetApiSvc
 xbgm
 XblAuthManager
 XboxGipSvc
+CredentialEnrollmentManagerUserSvc_12345 // breaks password windows
+CredentialEnrollmentManagerUserSvc // breaks password windows
+TokenBroker // breaks password windows
