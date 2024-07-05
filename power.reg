@@ -1,8 +1,7 @@
 ﻿Windows Registry Editor Version 5.00
 
 [HKLM\SYSTEM\CurrentControlSet\Control\Power]
-"Class1InitialUnparkCount"=dword:00000040
-"CustomizeDuringSetup"=dword:00000001
+"Class1InitialUnparkCount"=dword:00000000
 "EnergyEstimationEnabled"=dword:00000000
 "HiberFileSizePercent"=dword:00000000
 "MfBufferingThreshold"=dword:00000000
@@ -11,7 +10,6 @@
 "EventProcessorEnabled"=dword:00000000
 "MSDisabled"=dword:00000001
 "FxAccountingTelemetryDisabled"=dword:00000001
-"CoalescingFlushInterval"=dword:00000000
 
 [HKLM\SYSTEM\CurrentControlSet\Control\Power\Controls]
 "EnableInputSuppression"=dword:00000000
