@@ -23,3 +23,4 @@ Windows Registry Editor Version 5.00
 "EnableExtendedBooksTelemetry"=dword:00000000
 "MaxTelemetryAllowed"=dword:00000000
 "TelemetryProxyServer"=dword:00000000
+"DisableSearchBoxSuggestions"=dword:00000001
