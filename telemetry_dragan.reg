@@ -24,3 +24,4 @@ Windows Registry Editor Version 5.00
 "MaxTelemetryAllowed"=dword:00000000
 "TelemetryProxyServer"=dword:00000000
 "DisableSearchBoxSuggestions"=dword:00000001
+"DisableEngine"=dword:00000001
