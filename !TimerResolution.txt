@@ -10,4 +10,8 @@ If games and programs automatically set the timer to 1k MHz
 But in 1909 everything is different
 Because the timer is not fixed
 
-!!! WORK ONLY 1909 !!!
+if you set the timer to Windows, then your processor threads and integration will work poorly if it is below this value ~1K MHz
+
+How do we know that people from Win11 know that they have a kernel from W25 Server which means it’s not a bad core. but the timer cannot be set, take into account what CIS people wrote above
+
+!!! WORK ONLY 1909, W22 server !!!
